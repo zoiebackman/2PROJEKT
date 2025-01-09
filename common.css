@@ -2,21 +2,25 @@ body {
     margin: 0 auto;
 }
 
+#firstSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstSide a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.allNumbersBoxCell {
-    height: 20px;
-    width: 20px;
-    background-color: rgb(196, 196, 196);
-    margin: 2px;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-}
 
 .numbersBox {
     display: flex;
@@ -29,18 +33,63 @@ body {
     align-items: center;
 }
 
-.removeNewNumberBox {
+#removeNewNumberBox,
+#sumNumberBox {
     height: 20px;
     width: 25px;
     border: 1px solid grey;
     margin: 10px;
     text-align: center;
+    padding: 3px;
 }
 
-.newNumberBoxText {
+#sumNumberBox {
+    width: 40px;
+}
+
+#newNumberBoxText,
+#sumOfMarkedBox {
     height: 20px;
     width: 150px;
     border: 1px solid grey;
     text-align: center;
     margin: 10px;
+}
+
+.allNumbersBoxCell {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(196, 196, 196);
+    margin: 2px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.allNumbersBoxCell:hover {
+    background-color: rgb(216, 210, 210);
+}
+
+.orangeBox {
+    background-color: rgb(249, 183, 60);
+}
+
+.orangeBox:hover {
+    background-color: rgb(228, 211, 178);
+}
+
+.redBox {
+    background-color: rgb(255, 59, 59);
+}
+
+.redBox:hover {
+    background-color: rgb(245, 131, 131);
+}
+
+.greenBox {
+    background-color: rgb(109, 213, 109);
+}
+
+.greenBox:hover {
+    background-color: rgb(156, 217, 156);
 }
