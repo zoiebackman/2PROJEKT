@@ -32,13 +32,14 @@ body {
 }
 
 #removeNewNumberBox,
-#sumNumberBox {
+#sumNumberBox,
+#repetitionsNumberBox,
+#repetitionsNoNumberBox {
     height: 20px;
-    width: 25px;
     border: 1px solid grey;
     margin: 10px;
     text-align: center;
-    padding: 3px;
+    padding: 0px 10px;
 }
 
 #sumNumberBox {
