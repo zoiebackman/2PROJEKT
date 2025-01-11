@@ -1,5 +1,6 @@
 function mostNumber(array) {
-
+    let numbers = [];
+    let
 }
 
 

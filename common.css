@@ -79,6 +79,7 @@ body {
 
 .redBox {
     background-color: rgb(255, 59, 59);
+    color: rgb(255, 59, 59);
 }
 
 .redBox:hover {
@@ -99,4 +100,18 @@ body {
 
 .blueBox:hover {
     background-color: rgb(112, 112, 245);
+}
+
+.blueRed:hover {
+    background-color: rgb(212, 233, 249);
+}
+
+.redOrangeBox {
+    background-color: rgb(255, 59, 59);
+    color: rgb(255, 59, 59);
+}
+
+.redOrangeBox:hover {
+    background-color: rgb(249, 183, 60);
+    color: black;
 }
