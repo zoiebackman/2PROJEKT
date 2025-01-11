@@ -42,6 +42,11 @@ body {
     padding: 0px 10px;
 }
 
+.addUpToNumberBox {
+    width: 20px;
+    margin: 10px;
+}
+
 #sumNumberBox {
     width: 40px;
 }
