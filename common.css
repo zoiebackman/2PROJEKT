@@ -43,8 +43,9 @@ body {
 }
 
 .addUpToNumberBox {
-    width: 20px;
+    width: 30px;
     margin: 10px;
+    text-align: center;
 }
 
 #sumNumberBox {
