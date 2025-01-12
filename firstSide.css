@@ -1,0 +1,22 @@
+.firstSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+.firstSide a {
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+a {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color: lightpink;
+    text-decoration: none;
+    color: white;
+}

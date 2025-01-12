@@ -1,3 +1,9 @@
 #streck {
     margin: 10px;
 }
+
+.addUpToNumberBox {
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+}

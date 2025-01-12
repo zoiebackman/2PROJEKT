@@ -1,21 +1,11 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: jersey;
+    src: url(Jersey15-Regular.ttf);
 }
 
 body {
     margin: 0 auto;
-}
-
-.firstSide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#firstSide a {
-    padding: 10px;
-    margin: 10px 5px;
+    font-family: jersey;
 }
 
 .container {
@@ -24,10 +14,20 @@ body {
     align-items: center;
 }
 
+.homeButton {
+    padding: 10px 25px;
+    margin: 10px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color: lightpink;
+    text-decoration: none;
+    color: white;
+}
 
 .numbersBox {
     display: flex;
     flex-wrap: wrap;
+    max-width: 80%;
 }
 
 .newNumberContainer {
@@ -45,16 +45,6 @@ body {
     margin: 10px;
     text-align: center;
     padding: 0px 10px;
-}
-
-.addUpToNumberBox {
-    width: 30px;
-    margin: 10px;
-    text-align: center;
-}
-
-#sumNumberBox {
-    width: 40px;
 }
 
 #newNumberBoxText,
@@ -81,11 +71,11 @@ body {
 }
 
 .orangeBox {
-    background-color: rgb(249, 183, 60);
+    background-color: rgb(255, 204, 153);
 }
 
 .orangeBox:hover {
-    background-color: rgb(228, 211, 178);
+    background-color: rgb(255, 229, 204);
 }
 
 .redBox {
@@ -98,11 +88,11 @@ body {
 }
 
 .greenBox {
-    background-color: rgb(109, 213, 109);
+    background-color: rgb(153, 255, 153);
 }
 
 .greenBox:hover {
-    background-color: rgb(156, 217, 156);
+    background-color: rgb(204, 255, 204);
 }
 
 .blueBox {
