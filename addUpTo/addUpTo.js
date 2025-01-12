@@ -4,7 +4,9 @@ let cells = document.querySelectorAll(".allNumbersBoxCell");
 
 input.value = 179;
 
+
 twoCellsButton.addEventListener("click", function () {
+    cells = document.querySelectorAll(".allNumbersBoxCell")
     let inputNumber = parseInt(input.value);
 
     for (let i = 0; i < cells.length; i++) {
