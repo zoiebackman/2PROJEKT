@@ -44,6 +44,7 @@ createButton.addEventListener("click", function () {
             sumOfMarked.textContent = sumOfMarkedNumber();
         });
     }
+    sumOfMarked.textContent = "-"
 })
 
 resetButton.addEventListener("click", function () {
