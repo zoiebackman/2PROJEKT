@@ -4,7 +4,6 @@ let createNumbersInput = document.querySelector(".createNumbers");
 let numbersBox = document.querySelector(".numbersBox");
 
 let numbersArray = [];
-console.log(numbersArray);
 
 createNumbersInput.value = 95;
 
@@ -22,7 +21,6 @@ function createNumbersBox(value) {
         cell.textContent = randomValue;
         numbersBox.appendChild(cell);
     }
-    console.log(numbersArray)
     return numbersArray
 }
 

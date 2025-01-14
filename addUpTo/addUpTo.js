@@ -9,6 +9,10 @@ twoCellsButton.addEventListener("click", function () {
     cells = document.querySelectorAll(".allNumbersBoxCell")
     let inputNumber = parseInt(input.value);
 
+    for (let cell of cells) {
+        cell.classList.remove("greenBox")
+    }
+
     for (let i = 0; i < cells.length; i++) {
         let firstNumber = parseInt(cells[i].textContent);
         for (let j = i + 1; j < cells.length; j++) {

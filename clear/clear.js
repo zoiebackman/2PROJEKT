@@ -14,3 +14,22 @@ clearButton.addEventListener("click", function () {
         cell.classList.remove("redOrangeBox")
     }
 })
+
+createButton.addEventListener("click", function () {
+    createNumbersBox(createNumbersInput.value)
+    let cells = document.querySelectorAll(".allNumbersBoxCell");
+
+    for (let cell of cells) {
+        cell.classList.add("blueRed")
+        cell.addEventListener("click", function () {
+            cell.classList.add("redOrangeBox")
+
+        });
+    }
+
+    clearButton.addEventListener("click", function () {
+        for (let cell of cells) {
+            cell.classList.remove("redOrangeBox")
+        }
+    })
+})

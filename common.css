@@ -59,10 +59,10 @@ body {
 .allNumbersBoxCell {
     height: 20px;
     width: 20px;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(224, 224, 224);
     margin: 2px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 8px;
     text-align: center;
 }
 
@@ -79,11 +79,11 @@ body {
 }
 
 .redBox {
-    background-color: rgb(255, 59, 59);
+    background-color: rgb(255, 102, 102);
 }
 
 .redBox:hover {
-    background-color: rgb(245, 131, 131);
+    background-color: rgb(255, 153, 153);
 }
 
 .greenBox {
@@ -107,8 +107,8 @@ body {
 }
 
 .redOrangeBox {
-    background-color: rgb(255, 59, 59);
-    color: rgb(255, 59, 59);
+    background-color: rgb(255, 102, 102);
+    color: rgb(255, 102, 102);
 }
 
 .redOrangeBox:hover {

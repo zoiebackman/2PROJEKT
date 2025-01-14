@@ -1,0 +1,5 @@
+#repetitionsNumberBox,
+#repetitionsNoNumberBox {
+    display: flex;
+    flex-wrap: wrap;
+}
